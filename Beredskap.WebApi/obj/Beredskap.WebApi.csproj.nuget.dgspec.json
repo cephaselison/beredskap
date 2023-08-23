@@ -1,0 +1,546 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.WebApi/Beredskap.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Application/Beredskap.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Application/Beredskap.Application.csproj",
+        "projectName": "Beredskap.Application",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Application/Beredskap.Application.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/Beredskap.Common.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/Beredskap.Common.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Core/Beredskap.Domain.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Core/Beredskap.Domain.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.DTOs/Beredskap.DTOs.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.DTOs/Beredskap.DTOs.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Infrastructure/Beredskap.Infrastructure.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Infrastructure/Beredskap.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/Beredskap.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/Beredskap.Common.csproj",
+        "projectName": "Beredskap.Common",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/Beredskap.Common.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Core/Beredskap.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Core/Beredskap.Domain.csproj",
+        "projectName": "Beredskap.Domain",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Core/Beredskap.Domain.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/Beredskap.Enums.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/Beredskap.Enums.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFrameworkCore.DataEncryption": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.DTOs/Beredskap.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.DTOs/Beredskap.DTOs.csproj",
+        "projectName": "Beredskap.DTOs",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.DTOs/Beredskap.DTOs.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.DTOs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/Beredskap.Enums.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/Beredskap.Enums.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/Beredskap.Enums.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/Beredskap.Enums.csproj",
+        "projectName": "Beredskap.Enums",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/Beredskap.Enums.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Infrastructure/Beredskap.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Infrastructure/Beredskap.Infrastructure.csproj",
+        "projectName": "Beredskap.Infrastructure",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Infrastructure/Beredskap.Infrastructure.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/Beredskap.Common.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/Beredskap.Common.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Core/Beredskap.Domain.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Core/Beredskap.Domain.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.DTOs/Beredskap.DTOs.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.DTOs/Beredskap.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.WebApi/Beredskap.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.WebApi/Beredskap.WebApi.csproj",
+        "projectName": "Beredskap.WebApi",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.WebApi/Beredskap.WebApi.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Application/Beredskap.Application.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Application/Beredskap.Application.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/Beredskap.Common.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Common/Beredskap.Common.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/Beredskap.Enums.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Enums/Beredskap.Enums.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Infrastructure/Beredskap.Infrastructure.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.Infrastructure/Beredskap.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1109 @@
+[2023-08-18 10:02:22.006 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-18 10:02:22.261 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-18 10:02:22.262 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-18 10:02:22.262 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-18 10:02:22.262 +02:00  INF]  Hosting environment: Development
+[2023-08-18 10:02:22.262 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-18 10:02:52.796 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/ - -
+[2023-08-18 10:02:52.876 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/ - - - 404 0 - 79.9493ms
+[2023-08-18 10:02:52.903 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/favicon.ico - -
+[2023-08-18 10:02:52.904 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/favicon.ico - - - 404 0 - 1.2536ms
+[2023-08-18 10:02:56.886 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/ - -
+[2023-08-18 10:02:56.889 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/ - - - 301 0 - 3.5552ms
+[2023-08-18 10:02:56.895 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-18 10:02:56.973 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 78.3802ms
+[2023-08-18 10:02:56.991 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - -
+[2023-08-18 10:02:57.005 +02:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2023-08-18 10:02:57.005 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - - - 200 143632 text/css 14.4787ms
+[2023-08-18 10:02:57.204 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-18 10:02:57.295 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.9622ms
+[2023-08-18 10:03:02.232 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/tokens - -
+[2023-08-18 10:03:02.236 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:02.237 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/tokens - - - 204 - - 5.4902ms
+[2023-08-18 10:03:02.239 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/tokens application/json 52
+[2023-08-18 10:03:02.239 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:02.241 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-18 10:03:02.256 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-18 10:03:03.104 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 10:03:03.167 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/tokens application/json 52
+[2023-08-18 10:03:03.168 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:03.168 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-18 10:03:03.168 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-18 10:03:03.194 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 10:03:03.698 +02:00  INF]  Executed DbCommand (52ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-18 10:03:03.698 +02:00  INF]  Executed DbCommand (67ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-18 10:03:03.898 +02:00  INF]  Executed DbCommand (54ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-18 10:03:03.904 +02:00  INF]  Executed DbCommand (59ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-18 10:03:03.914 +02:00  INF]  Executed DbCommand (12ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-18 10:03:03.915 +02:00  INF]  Executed DbCommand (10ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-18 10:03:04.022 +02:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`6[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Guid, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IList`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-08-18 10:03:04.022 +02:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`6[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Guid, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IList`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-08-18 10:03:04.047 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 875.5935ms
+[2023-08-18 10:03:04.048 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 1787.1592ms
+[2023-08-18 10:03:04.049 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-18 10:03:04.049 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-18 10:03:04.060 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/tokens application/json 52 - 200 - application/json;+charset=utf-8 893.0856ms
+[2023-08-18 10:03:04.060 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/tokens application/json 52 - 200 - application/json;+charset=utf-8 1821.3720ms
+[2023-08-18 10:03:04.111 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants - -
+[2023-08-18 10:03:04.111 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:04.111 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants - - - 204 - - 0.4443ms
+[2023-08-18 10:03:04.146 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants - -
+[2023-08-18 10:03:04.187 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:04.187 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenants (AspNano.WebApi)'
+[2023-08-18 10:03:04.188 +02:00  INF]  Route matched with {action = "GetTenants", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[AspNano.DTOs.TenantDTOs.TenantDTO]] GetTenants() on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 10:03:04.291 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 10:03:04.315 +02:00  INF]  Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+ORDER BY [t].[Key]
+[2023-08-18 10:03:04.334 +02:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.TenantDTOs.TenantDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 10:03:04.335 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenants (AspNano.WebApi) in 146.4981ms
+[2023-08-18 10:03:04.335 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenants (AspNano.WebApi)'
+[2023-08-18 10:03:04.335 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants - - - 200 - application/json;+charset=utf-8 189.0193ms
+[2023-08-18 10:03:05.558 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 10:03:05.558 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 10:03:05.558 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:05.558 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:05.558 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 0.6732ms
+[2023-08-18 10:03:05.558 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 0.6933ms
+[2023-08-18 10:03:05.561 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 10:03:05.561 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 10:03:05.562 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:05.562 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:05.562 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 10:03:05.562 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 10:03:05.564 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 10:03:05.564 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 10:03:05.567 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 10:03:05.568 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 10:03:05.598 +02:00  INF]  Executed DbCommand (27ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 10:03:05.602 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 10:03:05.603 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 38.1643ms
+[2023-08-18 10:03:05.603 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 10:03:05.603 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 41.7592ms
+[2023-08-18 10:03:05.612 +02:00  INF]  Executed DbCommand (10ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 10:03:05.634 +02:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.IncidentDTOs.IncidentDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 10:03:05.641 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 77.073ms
+[2023-08-18 10:03:05.641 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 10:03:05.642 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 200 - application/json;+charset=utf-8 80.6028ms
+[2023-08-18 10:03:13.803 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 10:03:13.803 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:13.804 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 1.1325ms
+[2023-08-18 10:03:13.904 +02:00  INF]  Request starting HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 92
+[2023-08-18 10:03:13.905 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:03:13.906 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 10:03:13.912 +02:00  INF]  Route matched with {action = "AddOrUpdateIncident", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOrUpdateIncident(AspNano.DTOs.IncidentDTOs.IncidentDTO) on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 10:03:13.928 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 10:03:14.072 +02:00  INF]  Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Guid), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Incident] ([Id], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [IncidentStatus], [IsDeleted], [LastModifiedBy], [LastModifiedOn], [Location], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+[2023-08-18 10:03:14.096 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.IncidentDTOs.IncidentDTO'.
+[2023-08-18 10:03:14.097 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi) in 184.6232ms
+[2023-08-18 10:03:14.097 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 10:03:14.097 +02:00  INF]  Request finished HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 92 - 200 - application/json;+charset=utf-8 192.7558ms
+[2023-08-18 10:58:04.731 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-18 10:58:04.967 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-18 10:58:04.967 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-18 10:58:04.967 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-18 10:58:04.967 +02:00  INF]  Hosting environment: Development
+[2023-08-18 10:58:04.967 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-18 10:58:05.768 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-18 10:58:05.858 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 91.2460ms
+[2023-08-18 10:58:05.881 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - -
+[2023-08-18 10:58:05.889 +02:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2023-08-18 10:58:05.889 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - - - 0 143632 text/css 8.6725ms
+[2023-08-18 10:58:06.007 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-18 10:58:06.100 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.8604ms
+[2023-08-18 10:58:12.230 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 10:58:12.232 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 10:58:12.303 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:58:12.303 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 10:58:12.311 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 79.2123ms
+[2023-08-18 10:58:12.313 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 83.3742ms
+[2023-08-18 10:58:12.332 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 10:58:12.332 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 11:14:22.999 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-18 11:14:23.256 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-18 11:14:23.256 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-18 11:14:23.258 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-18 11:14:23.258 +02:00  INF]  Hosting environment: Development
+[2023-08-18 11:14:23.258 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-18 11:14:23.871 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-18 11:14:23.940 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 69.7204ms
+[2023-08-18 11:14:23.961 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - -
+[2023-08-18 11:14:23.968 +02:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2023-08-18 11:14:23.969 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - - - 0 143632 text/css 8.0332ms
+[2023-08-18 11:14:24.120 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-18 11:14:24.207 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.3890ms
+[2023-08-18 11:14:36.403 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/tokens - -
+[2023-08-18 11:14:36.469 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 11:14:36.470 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/tokens - - - 204 - - 67.7623ms
+[2023-08-18 11:14:36.472 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/tokens application/json 52
+[2023-08-18 11:14:36.473 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 11:14:36.477 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-18 11:14:36.490 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-18 11:14:43.341 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 11:14:43.792 +02:00  INF]  Executed DbCommand (33ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-18 11:14:43.921 +02:00  INF]  Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-18 11:14:43.951 +02:00  INF]  Executed DbCommand (26ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-18 11:14:44.030 +02:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`6[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Guid, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IList`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-08-18 11:14:44.051 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 7558.1547ms
+[2023-08-18 11:14:44.052 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-18 11:14:44.061 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/tokens application/json 52 - 200 - application/json;+charset=utf-8 7588.9166ms
+[2023-08-18 11:14:44.127 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants - -
+[2023-08-18 11:14:44.129 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 11:14:44.129 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants - - - 204 - - 1.6645ms
+[2023-08-18 11:14:44.130 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants - -
+[2023-08-18 11:14:44.172 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 11:14:44.172 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenants (AspNano.WebApi)'
+[2023-08-18 11:14:44.173 +02:00  INF]  Route matched with {action = "GetTenants", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[AspNano.DTOs.TenantDTOs.TenantDTO]] GetTenants() on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 11:14:44.270 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 11:14:44.278 +02:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+ORDER BY [t].[Key]
+[2023-08-18 11:14:44.319 +02:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.TenantDTOs.TenantDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 11:14:44.321 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenants (AspNano.WebApi) in 147.4317ms
+[2023-08-18 11:14:44.321 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenants (AspNano.WebApi)'
+[2023-08-18 11:14:44.321 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants - - - 200 - application/json;+charset=utf-8 190.6502ms
+[2023-08-18 11:14:46.327 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 11:14:46.328 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 11:14:46.354 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 26.8089ms
+[2023-08-18 11:14:46.400 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 11:14:46.449 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 11:14:46.450 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 11:14:46.450 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 0.5642ms
+[2023-08-18 11:14:46.451 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 11:14:46.453 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 11:14:46.453 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 11:14:46.453 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 11:14:46.453 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 11:14:46.454 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 11:14:46.454 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 11:14:46.460 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 11:14:46.460 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 11:14:46.493 +02:00  INF]  Executed DbCommand (30ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 11:14:46.572 +02:00  INF]  Executed DbCommand (53ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 11:14:46.575 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 11:14:46.575 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 120.6119ms
+[2023-08-18 11:14:46.575 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 11:14:46.575 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 123.8482ms
+[2023-08-18 11:14:46.603 +02:00  ERR]  An exception occurred while iterating over the results of a query for context type 'AspNano.Infrastructure.Persistence.ApplicationDbContext'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[2023-08-18 11:14:46.661 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 206.3068ms
+[2023-08-18 11:14:46.661 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 11:14:46.662 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at AspNano.Application.Services.IncidentService.IncidentService.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/Services/IncidentService/IncidentService.cs:line 23
+   at AspNano.WebApi.Controllers.IncidentsController.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Controllers/IncidentsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-18 11:14:46.672 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 500 - text/plain;+charset=utf-8 271.6240ms
+[2023-08-18 12:54:37.833 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:54:37.859 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:54:37.859 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 26.5265ms
+[2023-08-18 12:54:37.860 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 12:54:37.860 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:54:37.860 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 0.4317ms
+[2023-08-18 12:54:37.865 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:54:37.867 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:54:37.867 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:54:37.867 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 12:54:37.869 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:54:37.897 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 12:54:37.898 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:54:37.899 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:54:37.899 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:54:37.952 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:54:38.022 +02:00  INF]  Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 12:54:38.023 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 12:54:38.023 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 155.978ms
+[2023-08-18 12:54:38.023 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:54:38.024 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 157.9877ms
+[2023-08-18 12:54:38.032 +02:00  INF]  Executed DbCommand (3ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 12:54:38.032 +02:00  ERR]  An exception occurred while iterating over the results of a query for context type 'AspNano.Infrastructure.Persistence.ApplicationDbContext'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[2023-08-18 12:54:38.062 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 163.5196ms
+[2023-08-18 12:54:38.063 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:54:38.063 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at AspNano.Application.Services.IncidentService.IncidentService.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/Services/IncidentService/IncidentService.cs:line 23
+   at AspNano.WebApi.Controllers.IncidentsController.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Controllers/IncidentsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-18 12:54:38.064 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 500 - text/plain;+charset=utf-8 167.6085ms
+[2023-08-18 12:54:41.426 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:54:41.427 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 12:54:41.428 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:54:41.428 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:54:41.428 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:54:41.429 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:54:41.429 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 12:54:41.429 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:54:47.758 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:54:47.759 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:54:47.790 +02:00  INF]  Executed DbCommand (29ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 12:54:47.790 +02:00  INF]  Executed DbCommand (29ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 12:54:47.793 +02:00  ERR]  An exception occurred while iterating over the results of a query for context type 'AspNano.Infrastructure.Persistence.ApplicationDbContext'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[2023-08-18 12:54:47.793 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 12:54:47.794 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 6366.1075ms
+[2023-08-18 12:54:47.794 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:54:47.794 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 6368.9902ms
+[2023-08-18 12:54:47.850 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 6422.334ms
+[2023-08-18 12:54:47.850 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:54:47.850 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method233(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at AspNano.Application.Services.IncidentService.IncidentService.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/Services/IncidentService/IncidentService.cs:line 23
+   at AspNano.WebApi.Controllers.IncidentsController.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Controllers/IncidentsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-18 12:54:47.852 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 500 - text/plain;+charset=utf-8 6426.0470ms
+[2023-08-18 12:55:12.041 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-18 12:55:12.437 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-18 12:55:12.437 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-18 12:55:12.437 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-18 12:55:12.437 +02:00  INF]  Hosting environment: Development
+[2023-08-18 12:55:12.437 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-18 12:55:12.955 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-18 12:55:13.035 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 80.0056ms
+[2023-08-18 12:55:13.114 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-18 12:55:13.196 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.1925ms
+[2023-08-18 12:55:40.613 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:55:40.615 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 12:55:40.670 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:55:40.670 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:55:40.670 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 55.6843ms
+[2023-08-18 12:55:40.696 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 12:55:40.697 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 84.7644ms
+[2023-08-18 12:55:40.700 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:55:40.922 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:55:40.922 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:55:40.924 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:55:40.924 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:55:40.932 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:55:40.933 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 12:55:44.257 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:55:44.257 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:55:44.762 +02:00  INF]  Executed DbCommand (19ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 12:55:44.762 +02:00  INF]  Executed DbCommand (40ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 12:55:44.797 +02:00  ERR]  An exception occurred while iterating over the results of a query for context type 'AspNano.Infrastructure.Persistence.ApplicationDbContext'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method100(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method100(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[2023-08-18 12:56:00.844 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 12:56:00.845 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 19908.7896ms
+[2023-08-18 12:56:00.847 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:56:00.848 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method100(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at AspNano.Application.Services.IncidentService.IncidentService.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/Services/IncidentService/IncidentService.cs:line 25
+   at AspNano.WebApi.Controllers.IncidentsController.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Controllers/IncidentsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-18 12:56:00.851 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 19918.1342ms
+[2023-08-18 12:56:00.851 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:56:00.857 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 20157.1459ms
+[2023-08-18 12:56:00.857 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 500 - text/plain;+charset=utf-8 20160.7979ms
+[2023-08-18 12:56:03.545 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/tokens - -
+[2023-08-18 12:56:03.549 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:56:03.550 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/tokens - - - 204 - - 4.9750ms
+[2023-08-18 12:56:03.552 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/tokens application/json 52
+[2023-08-18 12:56:03.552 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:56:03.553 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-18 12:56:03.563 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-18 12:56:03.622 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:56:03.636 +02:00  INF]  Executed DbCommand (8ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-18 12:56:03.733 +02:00  INF]  Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-18 12:56:03.761 +02:00  INF]  Executed DbCommand (24ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-18 12:56:03.772 +02:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`6[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Guid, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.IList`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-08-18 12:56:03.789 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 225.016ms
+[2023-08-18 12:56:03.789 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-18 12:56:03.789 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/tokens application/json 52 - 200 - application/json;+charset=utf-8 237.4261ms
+[2023-08-18 12:56:03.806 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants - -
+[2023-08-18 12:56:03.806 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:56:03.806 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants - - - 204 - - 0.3164ms
+[2023-08-18 12:56:03.808 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants - -
+[2023-08-18 12:56:03.809 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:56:03.809 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenants (AspNano.WebApi)'
+[2023-08-18 12:56:03.810 +02:00  INF]  Route matched with {action = "GetTenants", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[AspNano.DTOs.TenantDTOs.TenantDTO]] GetTenants() on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 12:56:03.812 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:56:03.821 +02:00  INF]  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+ORDER BY [t].[Key]
+[2023-08-18 12:56:03.829 +02:00  INF]  Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.TenantDTOs.TenantDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 12:56:03.829 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenants (AspNano.WebApi) in 18.6643ms
+[2023-08-18 12:56:03.829 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenants (AspNano.WebApi)'
+[2023-08-18 12:56:03.829 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants - - - 200 - application/json;+charset=utf-8 21.2368ms
+[2023-08-18 12:56:12.361 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:56:12.361 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 12:56:12.361 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:56:12.361 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:56:12.362 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 1.0247ms
+[2023-08-18 12:56:12.362 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 1.0285ms
+[2023-08-18 12:56:12.369 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:56:12.370 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 12:56:12.371 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:56:12.371 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:56:12.371 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:56:12.371 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:56:12.371 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 12:56:12.371 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:56:15.208 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:56:15.208 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:56:15.218 +02:00  INF]  Executed DbCommand (5ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 12:56:15.342 +02:00  INF]  Executed DbCommand (76ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 12:56:15.343 +02:00  ERR]  An exception occurred while iterating over the results of a query for context type 'AspNano.Infrastructure.Persistence.ApplicationDbContext'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method100(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method100(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[2023-08-18 12:57:46.129 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 12:57:46.130 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 93758.6572ms
+[2023-08-18 12:57:46.131 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:57:46.131 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 93763.1748ms
+[2023-08-18 12:57:46.221 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 93849.6802ms
+[2023-08-18 12:57:46.223 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:57:46.251 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method100(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at AspNano.Application.Services.IncidentService.IncidentService.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/Services/IncidentService/IncidentService.cs:line 25
+   at AspNano.WebApi.Controllers.IncidentsController.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Controllers/IncidentsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-18 12:57:46.280 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 500 - text/plain;+charset=utf-8 93910.8635ms
+[2023-08-18 12:57:46.280 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 12:57:46.281 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:57:46.281 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 0.2742ms
+[2023-08-18 12:57:46.282 +02:00  INF]  Request starting HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 93
+[2023-08-18 12:57:46.283 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:57:46.283 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 12:57:46.285 +02:00  INF]  Route matched with {action = "AddOrUpdateIncident", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOrUpdateIncident(AspNano.DTOs.IncidentDTOs.IncidentDTO) on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:57:46.298 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:57:46.433 +02:00  INF]  Executed DbCommand (27ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Guid), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Incident] ([Id], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [IncidentStatus], [IsDeleted], [LastModifiedBy], [LastModifiedOn], [Location], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+[2023-08-18 12:57:46.464 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.IncidentDTOs.IncidentDTO'.
+[2023-08-18 12:57:46.466 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi) in 180.874ms
+[2023-08-18 12:57:46.466 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 12:57:46.466 +02:00  INF]  Request finished HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 93 - 200 - application/json;+charset=utf-8 183.6180ms
+[2023-08-18 12:57:56.701 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:57:56.702 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:57:56.702 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 2.0060ms
+[2023-08-18 12:57:56.707 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:57:56.709 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:57:56.709 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:57:56.709 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 12:57:56.711 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:57:56.733 +02:00  INF]  Executed DbCommand (21ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 12:57:56.735 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 12:57:56.735 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 25.5694ms
+[2023-08-18 12:57:56.735 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:57:56.737 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 27.6151ms
+[2023-08-18 12:57:56.749 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 12:57:56.749 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:57:56.749 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 0.3313ms
+[2023-08-18 12:57:56.772 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 12:57:56.773 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:57:56.773 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:57:56.774 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:57:58.122 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:57:58.179 +02:00  INF]  Executed DbCommand (55ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 12:57:58.180 +02:00  ERR]  An exception occurred while iterating over the results of a query for context type 'AspNano.Infrastructure.Persistence.ApplicationDbContext'.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method100(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method100(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+[2023-08-18 12:57:58.768 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 1993.7302ms
+[2023-08-18 12:57:58.768 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:57:58.768 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'bytes')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetString(Byte[] bytes)
+   at Microsoft.EntityFrameworkCore.DataEncryption.Internal.EncryptionConverter`2.Decrypt[TInput,TOupout](TProvider input, IEncryptionProvider encryptionProvider, StorageFormat storageFormat)
+   at lambda_method100(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at AspNano.Application.Services.IncidentService.IncidentService.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/Services/IncidentService/IncidentService.cs:line 25
+   at AspNano.WebApi.Controllers.IncidentsController.GetIncidents() in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Controllers/IncidentsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-18 12:57:58.770 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 500 - text/plain;+charset=utf-8 1997.9516ms
+[2023-08-18 12:58:24.336 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:58:24.336 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 12:58:24.337 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:24.337 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 2.0005ms
+[2023-08-18 12:58:24.337 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:24.365 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 28.3416ms
+[2023-08-18 12:58:24.394 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 12:58:24.395 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:58:24.419 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:24.419 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:58:24.419 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:24.446 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:58:24.470 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:58:24.471 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 12:58:25.924 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:58:25.924 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:58:25.957 +02:00  INF]  Executed DbCommand (32ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 12:58:25.957 +02:00  INF]  Executed DbCommand (32ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 12:58:26.013 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 12:58:26.013 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 89.9188ms
+[2023-08-18 12:58:26.013 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:58:26.013 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 1618.3339ms
+[2023-08-18 12:58:26.015 +02:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.IncidentDTOs.IncidentDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 12:58:26.016 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 1545.5305ms
+[2023-08-18 12:58:26.016 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:58:26.016 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 200 - application/json;+charset=utf-8 1622.2860ms
+[2023-08-18 12:58:32.996 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 12:58:32.997 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:32.998 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 1.2351ms
+[2023-08-18 12:58:33.003 +02:00  INF]  Request starting HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 95
+[2023-08-18 12:58:33.005 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:33.005 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 12:58:33.005 +02:00  INF]  Route matched with {action = "AddOrUpdateIncident", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOrUpdateIncident(AspNano.DTOs.IncidentDTOs.IncidentDTO) on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:58:33.007 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:58:33.029 +02:00  INF]  Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Guid), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Incident] ([Id], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [IncidentStatus], [IsDeleted], [LastModifiedBy], [LastModifiedOn], [Location], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+[2023-08-18 12:58:33.058 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.IncidentDTOs.IncidentDTO'.
+[2023-08-18 12:58:33.058 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi) in 52.4576ms
+[2023-08-18 12:58:33.058 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 12:58:33.058 +02:00  INF]  Request finished HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 95 - 200 - application/json;+charset=utf-8 55.7737ms
+[2023-08-18 12:58:34.669 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 12:58:34.671 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:34.671 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:58:34.671 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:58:35.906 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:58:35.906 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:35.906 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:58:35.906 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 0.6277ms
+[2023-08-18 12:58:35.932 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 12:58:35.984 +02:00  INF]  Executed DbCommand (50ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 12:58:36.012 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:36.012 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:58:36.013 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 12:58:36.013 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:58:36.014 +02:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.IncidentDTOs.IncidentDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 12:58:36.014 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 1342.8004ms
+[2023-08-18 12:58:36.014 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 12:58:36.014 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 200 - application/json;+charset=utf-8 1345.4062ms
+[2023-08-18 12:58:36.021 +02:00  INF]  Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 12:58:36.021 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 12:58:36.022 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 8.9305ms
+[2023-08-18 12:58:36.022 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 12:58:36.022 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 89.2517ms
+[2023-08-18 12:58:49.628 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 12:58:49.629 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:49.629 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 1.9385ms
+[2023-08-18 12:58:49.633 +02:00  INF]  Request starting HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 96
+[2023-08-18 12:58:49.634 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 12:58:49.634 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 12:58:49.634 +02:00  INF]  Route matched with {action = "AddOrUpdateIncident", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOrUpdateIncident(AspNano.DTOs.IncidentDTOs.IncidentDTO) on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 12:58:49.635 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 12:58:49.662 +02:00  INF]  Executed DbCommand (24ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Guid), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Incident] ([Id], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [IncidentStatus], [IsDeleted], [LastModifiedBy], [LastModifiedOn], [Location], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+[2023-08-18 12:58:49.787 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.IncidentDTOs.IncidentDTO'.
+[2023-08-18 12:58:49.788 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi) in 154.2317ms
+[2023-08-18 12:58:49.788 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 12:58:49.788 +02:00  INF]  Request finished HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 96 - 200 - application/json;+charset=utf-8 155.7673ms
+[2023-08-18 13:00:45.061 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 13:00:45.062 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:00:45.062 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 5.3630ms
+[2023-08-18 13:00:45.065 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 13:00:45.067 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:00:45.067 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:00:45.067 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 13:00:46.391 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:00:46.391 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:00:46.392 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 0.7214ms
+[2023-08-18 13:00:46.393 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:00:46.402 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:00:46.403 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:00:46.403 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:00:46.403 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 13:00:46.404 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:00:46.456 +02:00  INF]  Executed DbCommand (14ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 13:00:46.581 +02:00  INF]  Executed DbCommand (129ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 13:00:46.582 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 13:00:46.582 +02:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.IncidentDTOs.IncidentDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 13:00:46.583 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 179.5911ms
+[2023-08-18 13:00:46.583 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 1514.9979ms
+[2023-08-18 13:00:46.583 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:00:46.583 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:00:46.583 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 200 - application/json;+charset=utf-8 1517.6873ms
+[2023-08-18 13:00:46.583 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 181.0826ms
+[2023-08-18 13:03:14.575 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:03:14.576 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:03:14.579 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 4.6705ms
+[2023-08-18 13:03:14.576 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 13:03:14.583 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:03:14.584 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 7.7099ms
+[2023-08-18 13:03:14.606 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:03:14.606 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 13:03:14.610 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:03:14.610 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:03:14.610 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:03:14.610 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:03:14.612 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 13:03:14.612 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 13:03:16.095 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:03:16.096 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:03:16.176 +02:00  INF]  Executed DbCommand (78ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 13:03:16.254 +02:00  INF]  Executed DbCommand (157ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 13:03:16.281 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 13:03:16.281 +02:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.IncidentDTOs.IncidentDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 13:03:16.282 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 1669.8275ms
+[2023-08-18 13:03:16.282 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 1669.7808ms
+[2023-08-18 13:03:16.282 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:03:16.282 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:03:16.282 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 1675.7465ms
+[2023-08-18 13:03:16.282 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 200 - application/json;+charset=utf-8 1675.6547ms
+[2023-08-18 13:04:30.531 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-18 13:04:30.784 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-18 13:04:30.784 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-18 13:04:30.784 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-18 13:04:30.784 +02:00  INF]  Hosting environment: Development
+[2023-08-18 13:04:30.784 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-18 13:04:31.462 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-18 13:04:31.539 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 77.6062ms
+[2023-08-18 13:04:31.621 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-18 13:04:31.703 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.9824ms
+[2023-08-18 13:04:44.560 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 13:04:44.560 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:04:44.648 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:04:44.648 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:04:44.649 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 89.4837ms
+[2023-08-18 13:04:44.651 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 13:04:44.651 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 91.3831ms
+[2023-08-18 13:04:44.661 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:04:44.879 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:04:44.879 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:04:44.881 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:04:44.881 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:04:44.889 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 13:04:44.890 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 13:04:56.122 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:04:56.122 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:04:56.656 +02:00  INF]  Executed DbCommand (49ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 13:04:56.656 +02:00  INF]  Executed DbCommand (67ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE [i].[TenantId] = @__ef_filter__CurrentTenant_0
+[2023-08-18 13:04:56.712 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 13:04:56.712 +02:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.IncidentDTOs.IncidentDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 13:04:56.725 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 11829.9015ms
+[2023-08-18 13:04:56.726 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:04:56.728 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 11838.651ms
+[2023-08-18 13:04:56.728 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:04:56.734 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 200 - application/json;+charset=utf-8 12082.4910ms
+[2023-08-18 13:04:56.734 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 12072.9938ms
+[2023-08-18 13:06:05.027 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 13:06:05.031 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:06:05.033 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 6.5236ms
+[2023-08-18 13:06:05.037 +02:00  INF]  Request starting HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 101
+[2023-08-18 13:06:05.042 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:06:05.042 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 13:06:05.044 +02:00  INF]  Route matched with {action = "AddOrUpdateIncident", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOrUpdateIncident(AspNano.DTOs.IncidentDTOs.IncidentDTO) on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 13:06:05.086 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:06:05.212 +02:00  INF]  Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Guid), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Incident] ([Id], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [IncidentStatus], [IsDeleted], [LastModifiedBy], [LastModifiedOn], [Location], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+[2023-08-18 13:06:05.236 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.IncidentDTOs.IncidentDTO'.
+[2023-08-18 13:06:05.239 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi) in 194.348ms
+[2023-08-18 13:06:05.239 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 13:06:05.240 +02:00  INF]  Request finished HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 101 - 200 - application/json;+charset=utf-8 202.4960ms
+[2023-08-18 13:13:37.693 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-18 13:13:37.962 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-18 13:13:37.962 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-18 13:13:37.962 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-18 13:13:37.962 +02:00  INF]  Hosting environment: Development
+[2023-08-18 13:13:37.962 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-18 13:13:38.491 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-18 13:13:38.562 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 71.5575ms
+[2023-08-18 13:13:38.644 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-18 13:13:38.722 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.3611ms
+[2023-08-18 13:13:52.084 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 13:13:52.160 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:13:52.161 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 76.2372ms
+[2023-08-18 13:13:52.163 +02:00  INF]  Request starting HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 113
+[2023-08-18 13:13:52.381 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:13:52.383 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 13:13:52.393 +02:00  INF]  Route matched with {action = "AddOrUpdateIncident", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddOrUpdateIncident(AspNano.DTOs.IncidentDTOs.IncidentDTO) on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 13:13:53.110 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:13:53.479 +02:00  INF]  Executed DbCommand (38ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Guid), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Incident] ([Id], [CreatedBy], [CreatedOn], [DeletedBy], [DeletedOn], [IncidentStatus], [IsDeleted], [LastModifiedBy], [LastModifiedOn], [Location], [Name], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+[2023-08-18 13:13:53.523 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.IncidentDTOs.IncidentDTO'.
+[2023-08-18 13:13:53.533 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi) in 1135.448ms
+[2023-08-18 13:13:53.534 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.AddOrUpdateIncident (AspNano.WebApi)'
+[2023-08-18 13:13:53.544 +02:00  INF]  Request finished HTTP/1.1 PUT https://localhost:7250/api/Incidents application/json 113 - 200 - application/json;+charset=utf-8 1381.2400ms
+[2023-08-18 13:13:54.147 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 13:13:54.165 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:13:54.165 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:13:54.166 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 13:13:54.188 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:13:54.193 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:13:54.194 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:13:54.194 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 0.4792ms
+[2023-08-18 13:13:54.200 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:13:54.202 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:13:54.202 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:13:54.204 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 13:13:54.227 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:13:54.481 +02:00  INF]  Executed DbCommand (67ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE ([i].[TenantId] = @__ef_filter__CurrentTenant_0) AND ([i].[Name] = N'0F6o8BkvLvKQ3WrKEJKNJg==')
+[2023-08-18 13:13:54.481 +02:00  INF]  Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 13:13:54.497 +02:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.IncidentDTOs.IncidentDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 13:13:54.497 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 331.1601ms
+[2023-08-18 13:13:54.497 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:13:54.497 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 200 - application/json;+charset=utf-8 350.6830ms
+[2023-08-18 13:13:54.499 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 13:13:54.500 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 296.4484ms
+[2023-08-18 13:13:54.500 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:13:54.501 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 300.9430ms
+[2023-08-18 13:13:56.153 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:13:56.154 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:13:56.154 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:13:56.154 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 13:13:56.157 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:13:56.169 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 13:13:56.173 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:13:56.173 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:13:56.174 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 13:13:56.185 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:13:56.263 +02:00  INF]  Executed DbCommand (78ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE ([i].[TenantId] = @__ef_filter__CurrentTenant_0) AND ([i].[Name] = N'0F6o8BkvLvKQ3WrKEJKNJg==')
+[2023-08-18 13:13:56.264 +02:00  INF]  Executed DbCommand (43ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 13:13:56.268 +02:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.IncidentDTOs.IncidentDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 13:13:56.269 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 94.7405ms
+[2023-08-18 13:13:56.269 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:13:56.269 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 200 - application/json;+charset=utf-8 99.7850ms
+[2023-08-18 13:13:56.271 +02:00  INF]  Executing OkObjectResult, writing value of type 'AspNano.DTOs.TenantDTOs.TenantDTO'.
+[2023-08-18 13:13:56.272 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 117.2457ms
+[2023-08-18 13:13:56.272 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:13:56.272 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 200 - application/json;+charset=utf-8 119.6695ms
+[2023-08-18 13:14:03.001 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:14:03.001 +02:00  INF]  Request starting HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - -
+[2023-08-18 13:14:03.002 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:14:03.002 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:14:03.002 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 204 - - 0.4502ms
+[2023-08-18 13:14:03.002 +02:00  INF]  Request finished HTTP/1.1 OPTIONS https://localhost:7250/api/Incidents - - - 204 - - 0.5125ms
+[2023-08-18 13:14:03.006 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - -
+[2023-08-18 13:14:03.006 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Incidents - -
+[2023-08-18 13:14:03.007 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:14:03.007 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:14:03.007 +02:00  INF]  CORS policy execution successful.
+[2023-08-18 13:14:03.007 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:14:03.007 +02:00  INF]  Route matched with {action = "GetIncidents", controller = "Incidents"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetIncidents() on controller AspNano.WebApi.Controllers.IncidentsController (AspNano.WebApi).
+[2023-08-18 13:14:03.007 +02:00  INF]  Route matched with {action = "GetTenant", controller = "Tenants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTenant(System.String) on controller AspNano.WebApi.Controllers.TenantsController (AspNano.WebApi).
+[2023-08-18 13:14:09.844 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:14:09.844 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-18 13:14:09.854 +02:00  INF]  Executed DbCommand (9ms) [Parameters=[@__ef_filter__CurrentTenant_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [i].[Id], [i].[CreatedBy], [i].[CreatedOn], [i].[DeletedBy], [i].[DeletedOn], [i].[IncidentStatus], [i].[IsDeleted], [i].[LastModifiedBy], [i].[LastModifiedOn], [i].[Location], [i].[Name], [i].[TenantId]
+FROM [Incident] AS [i]
+WHERE ([i].[TenantId] = @__ef_filter__CurrentTenant_0) AND ([i].[Name] = N'0F6o8BkvLvKQ3WrKEJKNJg==')
+[2023-08-18 13:23:50.723 +02:00  INF]  Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AspNano.DTOs.IncidentDTOs.IncidentDTO, AspNano.DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+[2023-08-18 13:23:50.725 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi) in 557061.1868ms
+[2023-08-18 13:23:50.726 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IncidentsController.GetIncidents (AspNano.WebApi)'
+[2023-08-18 13:23:50.727 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Incidents - - - 200 - application/json;+charset=utf-8 557064.2154ms
+[2023-08-18 13:23:50.925 +02:00  ERR]  Failed executing DbCommand (581,080ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [t].[Id], [t].[IsActive], [t].[Key]
+FROM [Tenant] AS [t]
+WHERE [t].[Id] = @__id_0
+[2023-08-18 13:23:50.958 +02:00  ERR]  An exception occurred while iterating over the results of a query for context type 'AspNano.Infrastructure.Persistence.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1eaef999-c3bd-4e21-a6d2-4331f5fd05e9
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1eaef999-c3bd-4e21-a6d2-4331f5fd05e9
+Error Number:-2,State:0,Class:11
+[2023-08-18 13:23:51.057 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi) in 557393.3858ms
+[2023-08-18 13:23:51.057 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TenantsController.GetTenant (AspNano.WebApi)'
+[2023-08-18 13:23:51.057 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): Unknown error: 258
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at AspNano.Application.Services.TenantService.TenantService.GetTenant(Guid id) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/Services/TenantService/TenantService.cs:line 29
+   at AspNano.WebApi.Controllers.TenantsController.GetTenant(String id) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Controllers/TenantsController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:1eaef999-c3bd-4e21-a6d2-4331f5fd05e9
+Error Number:-2,State:0,Class:11
+[2023-08-18 13:23:51.065 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Tenants/b759912e-e920-4cfd-acc5-3e635af6f0a2 - - - 500 - text/plain;+charset=utf-8 557403.3012ms
+[2023-08-18 15:58:24.378 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-18 15:58:24.690 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-18 15:58:24.690 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-18 15:58:24.691 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-18 15:58:24.691 +02:00  INF]  Hosting environment: Development
+[2023-08-18 15:58:24.691 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/Beredskap.WebApi
+[2023-08-18 15:58:24.824 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-18 15:58:24.904 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 80.6177ms
+[2023-08-18 15:58:24.964 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - -
+[2023-08-18 15:58:24.969 +02:00  INF]  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+[2023-08-18 15:58:24.969 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - - - 0 665 image/png 5.4634ms
+[2023-08-18 15:58:25.021 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-18 15:58:25.107 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.9886ms
+[2023-08-18 16:15:03.365 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-18 16:15:03.668 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-18 16:15:03.668 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-18 16:15:03.668 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-18 16:15:03.668 +02:00  INF]  Hosting environment: Development
+[2023-08-18 16:15:03.668 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/netpower/beredskap/Beredskap/Beredskap.WebApi
+[2023-08-18 16:15:07.406 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-18 16:15:07.497 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 91.6199ms
+[2023-08-18 16:15:07.584 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-18 16:15:07.667 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.9355ms

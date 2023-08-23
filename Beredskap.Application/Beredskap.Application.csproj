@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Beredskap.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="NPOI" Version="2.5.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Beredskap.Common\Beredskap.Common.csproj" />
+    <ProjectReference Include="..\Beredskap.Core\Beredskap.Domain.csproj" />
+    <ProjectReference Include="..\Beredskap.DTOs\Beredskap.DTOs.csproj" />
+    <ProjectReference Include="..\Beredskap.Infrastructure\Beredskap.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/bin/Debug/net6.0/AspNano.DTOs.deps.json
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/bin/Debug/net6.0/AspNano.DTOs.dll
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/bin/Debug/net6.0/AspNano.DTOs.pdb
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/bin/Debug/net6.0/AspNano.Enums.dll
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/bin/Debug/net6.0/AspNano.Enums.pdb
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/AspNano.DTOs.csproj.AssemblyReference.cache
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/AspNano.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/AspNano.DTOs.AssemblyInfoInputs.cache
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/AspNano.DTOs.AssemblyInfo.cs
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/AspNano.DTOs.csproj.CoreCompileInputs.cache
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/AspNano.DTOs.csproj.CopyComplete
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/AspNano.DTOs.dll
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/refint/AspNano.DTOs.dll
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/AspNano.DTOs.pdb
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/Debug/net6.0/ref/AspNano.DTOs.dll

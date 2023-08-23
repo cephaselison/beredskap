@@ -1,0 +1,12 @@
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/bin/Debug/net6.0/AspNano.Enums.deps.json
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/bin/Debug/net6.0/AspNano.Enums.dll
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/bin/Debug/net6.0/AspNano.Enums.pdb
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/Debug/net6.0/AspNano.Enums.csproj.AssemblyReference.cache
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/Debug/net6.0/AspNano.Enums.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/Debug/net6.0/AspNano.Enums.AssemblyInfoInputs.cache
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/Debug/net6.0/AspNano.Enums.AssemblyInfo.cs
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/Debug/net6.0/AspNano.Enums.csproj.CoreCompileInputs.cache
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/Debug/net6.0/AspNano.Enums.dll
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/Debug/net6.0/refint/AspNano.Enums.dll
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/Debug/net6.0/AspNano.Enums.pdb
+/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/Debug/net6.0/ref/AspNano.Enums.dll

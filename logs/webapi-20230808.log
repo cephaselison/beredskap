@@ -1,0 +1,1267 @@
+[2023-08-08 12:26:49.874 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 12:26:49.993 +02:00  WRN]  The ASP.NET Core developer certificate is in an invalid state. To fix this issue, run 'dotnet dev-certs https --clean' and 'dotnet dev-certs https' to remove all existing ASP.NET Core development certificates and create a new untrusted developer certificate. On macOS or Windows, use 'dotnet dev-certs https --trust' to trust the new certificate.
+[2023-08-08 12:27:58.236 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 12:27:58.326 +02:00  WRN]  The ASP.NET Core developer certificate is in an invalid state. To fix this issue, run 'dotnet dev-certs https --clean' and 'dotnet dev-certs https' to remove all existing ASP.NET Core development certificates and create a new untrusted developer certificate. On macOS or Windows, use 'dotnet dev-certs https --trust' to trust the new certificate.
+[2023-08-08 12:30:08.225 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 12:30:08.321 +02:00  WRN]  The ASP.NET Core developer certificate is in an invalid state. To fix this issue, run 'dotnet dev-certs https --clean' and 'dotnet dev-certs https' to remove all existing ASP.NET Core development certificates and create a new untrusted developer certificate. On macOS or Windows, use 'dotnet dev-certs https --trust' to trust the new certificate.
+[2023-08-08 13:30:04.595 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 13:30:04.718 +02:00  WRN]  The ASP.NET Core developer certificate is in an invalid state. To fix this issue, run 'dotnet dev-certs https --clean' and 'dotnet dev-certs https' to remove all existing ASP.NET Core development certificates and create a new untrusted developer certificate. On macOS or Windows, use 'dotnet dev-certs https --trust' to trust the new certificate.
+[2023-08-08 13:30:14.939 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 13:30:15.180 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-08 13:30:15.180 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-08 13:30:15.180 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-08 13:30:15.180 +02:00  INF]  Hosting environment: Development
+[2023-08-08 13:30:15.180 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-08 13:31:36.479 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 13:31:36.695 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-08 13:31:36.695 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-08 13:31:36.695 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-08 13:31:36.695 +02:00  INF]  Hosting environment: Development
+[2023-08-08 13:31:36.695 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-08 13:32:42.187 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 13:32:42.410 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-08 13:32:42.410 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-08 13:32:42.410 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-08 13:32:42.410 +02:00  INF]  Hosting environment: Development
+[2023-08-08 13:32:42.410 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-08 13:32:46.700 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger - -
+[2023-08-08 13:32:46.746 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger - - - 301 0 - 46.9344ms
+[2023-08-08 13:32:46.751 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-08 13:32:46.804 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 52.7925ms
+[2023-08-08 13:32:46.820 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - -
+[2023-08-08 13:32:46.840 +02:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2023-08-08 13:32:46.841 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - - - 200 143632 text/css 21.1202ms
+[2023-08-08 13:32:46.887 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui-standalone-preset.js - -
+[2023-08-08 13:32:46.887 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui-bundle.js - -
+[2023-08-08 13:32:47.073 +02:00  INF]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2023-08-08 13:32:47.073 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui-standalone-preset.js - - - 200 337162 text/javascript 186.1250ms
+[2023-08-08 13:32:47.132 +02:00  INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2023-08-08 13:32:47.132 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui-bundle.js - - - 200 1092889 text/javascript 245.2024ms
+[2023-08-08 13:32:47.198 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - -
+[2023-08-08 13:32:47.198 +02:00  INF]  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+[2023-08-08 13:32:47.198 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - - - 200 665 image/png 0.4337ms
+[2023-08-08 13:32:47.225 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-08 13:32:47.300 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.6088ms
+[2023-08-08 13:34:22.674 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Identity/UserList - -
+[2023-08-08 13:34:22.784 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IdentityController.GetAllAsync (AspNano.WebApi)'
+[2023-08-08 13:34:22.795 +02:00  INF]  Route matched with {action = "GetAll", controller = "Identity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller AspNano.WebApi.Controllers.IdentityController (AspNano.WebApi).
+[2023-08-08 13:34:39.250 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IdentityController.GetAllAsync (AspNano.WebApi) in 16452.915ms
+[2023-08-08 13:34:39.252 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IdentityController.GetAllAsync (AspNano.WebApi)'
+[2023-08-08 13:34:39.253 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 13:34:39.256 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Identity/UserList - - - 500 - text/plain;+charset=utf-8 16582.2387ms
+[2023-08-08 13:35:03.721 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 75
+[2023-08-08 13:35:03.739 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 13:35:03.743 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 13:35:03.743 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 75 - 401 0 - 22.6068ms
+[2023-08-08 13:43:07.193 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 13:43:07.457 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-08 13:43:07.457 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-08 13:43:07.457 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-08 13:43:07.457 +02:00  INF]  Hosting environment: Development
+[2023-08-08 13:43:07.457 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-08 13:43:08.097 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-08 13:43:08.185 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 87.9129ms
+[2023-08-08 13:43:08.205 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - -
+[2023-08-08 13:43:08.215 +02:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2023-08-08 13:43:08.215 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - - - 0 143632 text/css 10.2873ms
+[2023-08-08 13:43:08.362 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-08 13:43:08.452 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.0650ms
+[2023-08-08 13:46:31.178 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71
+[2023-08-08 13:46:31.248 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 13:46:31.252 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 13:46:31.257 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 13:46:31.257 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71 - 401 0 - 78.6400ms
+[2023-08-08 13:49:54.389 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71
+[2023-08-08 13:49:54.394 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 13:49:54.395 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 13:49:54.396 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 13:49:54.396 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71 - 401 0 - 9.6360ms
+[2023-08-08 13:50:08.007 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71
+[2023-08-08 13:50:08.008 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 13:50:08.008 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 13:50:08.009 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 13:50:08.009 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71 - 401 0 - 1.8710ms
+[2023-08-08 13:50:23.772 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71
+[2023-08-08 13:50:23.772 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 13:50:23.772 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 13:50:23.773 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 13:50:23.773 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71 - 401 0 - 1.6103ms
+[2023-08-08 13:50:37.856 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 78
+[2023-08-08 13:50:37.856 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 13:50:37.857 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 13:50:37.858 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 13:50:37.858 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 78 - 401 0 - 2.8875ms
+[2023-08-08 13:54:32.087 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 13:54:32.906 +02:00  INF]  Executed DbCommand (559ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Site-1];
+[2023-08-08 13:54:33.132 +02:00  INF]  Executed DbCommand (224ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Site-1] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+[2023-08-08 13:54:33.155 +02:00  INF]  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2023-08-08 13:54:33.187 +02:00  INF]  Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+[2023-08-08 13:54:33.188 +02:00  INF]  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+[2023-08-08 13:54:33.196 +02:00  INF]  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+[2023-08-08 13:54:33.200 +02:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+[2023-08-08 13:54:33.204 +02:00  INF]  Applying migration '20220220111446_initial'.
+[2023-08-08 13:54:33.238 +02:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+[2023-08-08 13:54:33.240 +02:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [TenantId] nvarchar(max) NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+[2023-08-08 13:54:33.243 +02:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tenant] (
+    [Id] uniqueidentifier NOT NULL,
+    [Key] nvarchar(max) NULL,
+    [IsActive] bit NOT NULL,
+    CONSTRAINT [PK_Tenant] PRIMARY KEY ([Id])
+);
+[2023-08-08 13:54:33.246 +02:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Venue] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Type] int NOT NULL,
+    [TenantId] nvarchar(max) NULL,
+    [CreatedBy] uniqueidentifier NOT NULL,
+    [CreatedOn] datetime2 NOT NULL,
+    [LastModifiedBy] uniqueidentifier NOT NULL,
+    [LastModifiedOn] datetime2 NULL,
+    [DeletedOn] datetime2 NULL,
+    [DeletedBy] uniqueidentifier NULL,
+    [IsDeleted] bit NULL,
+    CONSTRAINT [PK_Venue] PRIMARY KEY ([Id])
+);
+[2023-08-08 13:54:33.248 +02:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+[2023-08-08 13:54:33.251 +02:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+[2023-08-08 13:54:33.254 +02:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+[2023-08-08 13:54:33.256 +02:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+[2023-08-08 13:54:33.259 +02:00  INF]  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+[2023-08-08 13:54:33.282 +02:00  INF]  Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (N'5dda1b52-5d12-460c-b850-f06042399356', N'3', N'editor', N'editor'),
+(N'6fef51e2-e448-442a-90bb-0953200acd95', N'2', N'admin', N'admin'),
+(N'a2a944eb-c572-4241-99c5-7d3c2b82cc46', N'4', N'basic', N'basic'),
+(N'b761c12f-4f47-4722-9974-8bf705e4626b', N'1', N'root', N'root');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'ConcurrencyStamp', N'Name', N'NormalizedName') AND [object_id] = OBJECT_ID(N'[AspNetRoles]'))
+    SET IDENTITY_INSERT [AspNetRoles] OFF;
+[2023-08-08 13:54:33.294 +02:00  INF]  Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'ConcurrencyStamp', N'Email', N'EmailConfirmed', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'SecurityStamp', N'TenantId', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TenantId], [TwoFactorEnabled], [UserName])
+VALUES (N'297af0a9-060d-4ac7-b014-e421588150a0', 0, N'2c714f9a-890c-4919-97fc-53fd2d661094', N'admin@root.com', CAST(1 AS bit), CAST(0 AS bit), NULL, N'admin@root.com', N'ADMINROOT', N'AQAAAAEAACcQAAAAEIEGR4n5S60zP4+AON1SKju6/tlP/sv3pUUutojaQM83v15bJtCxM8Njak388NN2qg==', N'+111111111111', CAST(1 AS bit), N'4dab1165-4c3c-42c5-9504-d10971398bfe', N'297af0a9-060d-4ac7-b014-e421588150a0', CAST(0 AS bit), N'adminRoot');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'ConcurrencyStamp', N'Email', N'EmailConfirmed', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'SecurityStamp', N'TenantId', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] OFF;
+[2023-08-08 13:54:33.303 +02:00  INF]  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'IsActive', N'Key') AND [object_id] = OBJECT_ID(N'[Tenant]'))
+    SET IDENTITY_INSERT [Tenant] ON;
+INSERT INTO [Tenant] ([Id], [IsActive], [Key])
+VALUES ('297af0a9-060d-4ac7-b014-e421588150a0', CAST(1 AS bit), N'root');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'IsActive', N'Key') AND [object_id] = OBJECT_ID(N'[Tenant]'))
+    SET IDENTITY_INSERT [Tenant] OFF;
+[2023-08-08 13:54:33.314 +02:00  INF]  Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'RoleId', N'UserId') AND [object_id] = OBJECT_ID(N'[AspNetUserRoles]'))
+    SET IDENTITY_INSERT [AspNetUserRoles] ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (N'b761c12f-4f47-4722-9974-8bf705e4626b', N'297af0a9-060d-4ac7-b014-e421588150a0');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'RoleId', N'UserId') AND [object_id] = OBJECT_ID(N'[AspNetUserRoles]'))
+    SET IDENTITY_INSERT [AspNetUserRoles] OFF;
+[2023-08-08 13:54:33.316 +02:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+[2023-08-08 13:54:33.325 +02:00  INF]  Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+[2023-08-08 13:54:33.328 +02:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+[2023-08-08 13:54:33.329 +02:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+[2023-08-08 13:54:33.336 +02:00  INF]  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+[2023-08-08 13:54:33.342 +02:00  INF]  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+[2023-08-08 13:54:33.349 +02:00  INF]  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+[2023-08-08 13:54:33.352 +02:00  INF]  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20220220111446_initial', N'6.0.1');
+[2023-08-08 13:54:52.023 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 13:54:52.255 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-08 13:54:52.255 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-08 13:54:52.255 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-08 13:54:52.256 +02:00  INF]  Hosting environment: Development
+[2023-08-08 13:54:52.256 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-08 13:54:52.910 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-08 13:54:52.997 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 88.1759ms
+[2023-08-08 13:54:53.017 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - -
+[2023-08-08 13:54:53.023 +02:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2023-08-08 13:54:53.023 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - - - 0 143632 text/css 5.7957ms
+[2023-08-08 13:54:53.157 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-08 13:54:53.234 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.1635ms
+[2023-08-08 13:55:35.350 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71
+[2023-08-08 13:55:35.486 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 13:55:35.490 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 13:55:35.495 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 13:55:35.495 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71 - 401 0 - 145.3984ms
+[2023-08-08 14:14:32.466 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Identity/UserList - -
+[2023-08-08 14:14:32.475 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:14:32.479 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IdentityController.GetAllAsync (AspNano.WebApi)'
+[2023-08-08 14:14:32.492 +02:00  INF]  Route matched with {action = "GetAll", controller = "Identity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller AspNano.WebApi.Controllers.IdentityController (AspNano.WebApi).
+[2023-08-08 14:14:38.808 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IdentityController.GetAllAsync (AspNano.WebApi) in 6312.057ms
+[2023-08-08 14:14:38.810 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IdentityController.GetAllAsync (AspNano.WebApi)'
+[2023-08-08 14:14:38.811 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 14:14:38.816 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Identity/UserList - - - 500 - text/plain;+charset=utf-8 6350.1585ms
+[2023-08-08 14:15:17.925 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 47
+[2023-08-08 14:15:17.926 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:15:17.926 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:15:17.933 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:15:18.743 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 14:15:19.273 +02:00  INF]  Executed DbCommand (79ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 14:15:19.303 +02:00  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2023-08-08 14:15:19.305 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 1372.331ms
+[2023-08-08 14:15:19.306 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:15:19.316 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 47 - 401 - application/problem+json;+charset=utf-8 1390.7148ms
+[2023-08-08 14:15:38.749 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 47
+[2023-08-08 14:15:38.749 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:15:38.749 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:15:38.749 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:15:49.372 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 14:15:49.386 +02:00  INF]  Executed DbCommand (9ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 14:15:49.387 +02:00  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2023-08-08 14:15:49.387 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 10637.8012ms
+[2023-08-08 14:15:49.387 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:15:49.387 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 47 - 401 - application/problem+json;+charset=utf-8 10638.7417ms
+[2023-08-08 14:16:04.822 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 47
+[2023-08-08 14:16:04.823 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:16:04.823 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:16:04.823 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:16:06.500 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 14:16:06.650 +02:00  INF]  Executed DbCommand (113ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 14:16:46.627 +02:00  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2023-08-08 14:16:46.627 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 41804.0198ms
+[2023-08-08 14:16:46.627 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:16:46.628 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 47 - 401 - application/problem+json;+charset=utf-8 41805.1356ms
+[2023-08-08 14:16:46.682 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-08 14:16:46.682 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 0.4739ms
+[2023-08-08 14:16:46.770 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - -
+[2023-08-08 14:16:46.771 +02:00  INF]  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+[2023-08-08 14:16:46.771 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - - - 0 665 image/png 0.6833ms
+[2023-08-08 14:16:46.844 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-08 14:16:46.847 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.8658ms
+[2023-08-08 14:17:01.513 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 54
+[2023-08-08 14:17:01.513 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:17:01.513 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:17:06.153 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 14:17:06.198 +02:00  INF]  Executed DbCommand (45ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 14:17:14.093 +02:00  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2023-08-08 14:17:14.093 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 12579.6859ms
+[2023-08-08 14:17:14.093 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:17:14.093 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 54 - 401 - application/problem+json;+charset=utf-8 12580.3236ms
+[2023-08-08 14:17:23.958 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 57
+[2023-08-08 14:17:23.959 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:17:23.959 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:17:28.205 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 14:17:28.282 +02:00  INF]  Executed DbCommand (76ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 14:17:33.088 +02:00  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2023-08-08 14:17:33.088 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 9129.293ms
+[2023-08-08 14:17:33.088 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:17:33.088 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 57 - 401 - application/problem+json;+charset=utf-8 9130.2331ms
+[2023-08-08 14:17:52.245 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 57
+[2023-08-08 14:17:52.246 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:17:52.246 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:17:52.246 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:18:03.038 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 14:18:03.168 +02:00  INF]  Executed DbCommand (76ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 14:18:03.173 +02:00  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2023-08-08 14:18:03.173 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 10927.178ms
+[2023-08-08 14:18:03.173 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:18:03.173 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 57 - 401 - application/problem+json;+charset=utf-8 10928.2307ms
+[2023-08-08 14:18:33.341 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-08 14:18:33.353 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.1510ms
+[2023-08-08 14:18:56.219 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Identity/register application/json 47
+[2023-08-08 14:18:56.221 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:18:56.221 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IdentityController.RegisterAsync (AspNano.WebApi)'
+[2023-08-08 14:18:56.224 +02:00  INF]  Route matched with {action = "Register", controller = "Identity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] RegisterAsync(AspNano.WebApi.Models.MyLoginModelType) on controller AspNano.WebApi.Controllers.IdentityController (AspNano.WebApi).
+[2023-08-08 14:18:59.078 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IdentityController.RegisterAsync (AspNano.WebApi) in 2853.586ms
+[2023-08-08 14:18:59.078 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IdentityController.RegisterAsync (AspNano.WebApi)'
+[2023-08-08 14:18:59.079 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method192(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 14:18:59.081 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Identity/register application/json 47 - 500 - text/plain;+charset=utf-8 2861.5868ms
+[2023-08-08 14:19:36.750 +02:00  INF]  Request starting HTTP/1.1 PUT https://localhost:7250/api/Tenants/297AF0A9-060D-4AC7-B014-E421588150A0 application/json 19
+[2023-08-08 14:19:36.753 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:19:36.756 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 14:19:36.757 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 14:19:36.757 +02:00  INF]  Request finished HTTP/1.1 PUT https://localhost:7250/api/Tenants/297AF0A9-060D-4AC7-B014-E421588150A0 application/json 19 - 401 0 - 9.0371ms
+[2023-08-08 14:19:46.803 +02:00  INF]  Request starting HTTP/1.1 PUT https://localhost:7250/api/Tenants/297AF0A9-060D-4AC7-B014-E421588150A0 application/json 19
+[2023-08-08 14:19:46.803 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:19:46.804 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 14:19:46.804 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 14:19:46.805 +02:00  INF]  Request finished HTTP/1.1 PUT https://localhost:7250/api/Tenants/297AF0A9-060D-4AC7-B014-E421588150A0 application/json 19 - 401 0 - 1.8680ms
+[2023-08-08 14:22:40.749 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 14:22:40.986 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-08 14:22:40.986 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-08 14:22:40.986 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-08 14:22:40.986 +02:00  INF]  Hosting environment: Development
+[2023-08-08 14:22:40.986 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-08 14:22:41.718 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-08 14:22:41.806 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 88.7200ms
+[2023-08-08 14:22:41.825 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - -
+[2023-08-08 14:22:41.831 +02:00  INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2023-08-08 14:22:41.831 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/swagger-ui.css - - - 0 143632 text/css 6.1958ms
+[2023-08-08 14:22:41.988 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-08 14:22:42.062 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.3367ms
+[2023-08-08 14:23:00.834 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71
+[2023-08-08 14:23:00.900 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 14:23:00.904 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 14:23:00.904 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71 - 401 0 - 70.9533ms
+[2023-08-08 14:23:05.866 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71
+[2023-08-08 14:23:05.892 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:23:05.893 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 14:23:05.897 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 14:23:05.897 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71 - 401 0 - 30.5249ms
+[2023-08-08 14:23:07.400 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71
+[2023-08-08 14:23:07.401 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:23:07.402 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 14:23:07.402 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 14:23:07.402 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71 - 401 0 - 1.9774ms
+[2023-08-08 14:23:07.959 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71
+[2023-08-08 14:23:07.960 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:23:07.960 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 14:23:07.960 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 14:23:07.960 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 71 - 401 0 - 1.3897ms
+[2023-08-08 14:24:22.814 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Identity/register application/json 47
+[2023-08-08 14:24:22.815 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:24:22.833 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IdentityController.RegisterAsync (AspNano.WebApi)'
+[2023-08-08 14:24:22.851 +02:00  INF]  Route matched with {action = "Register", controller = "Identity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] RegisterAsync(AspNano.WebApi.Models.MyLoginModelType) on controller AspNano.WebApi.Controllers.IdentityController (AspNano.WebApi).
+[2023-08-08 14:24:38.101 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IdentityController.RegisterAsync (AspNano.WebApi) in 15247.8739ms
+[2023-08-08 14:24:38.103 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IdentityController.RegisterAsync (AspNano.WebApi)'
+[2023-08-08 14:24:38.104 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.ConstructorInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 14:24:38.107 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Identity/register application/json 47 - 500 - text/plain;+charset=utf-8 15295.2582ms
+[2023-08-08 14:25:01.968 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 47
+[2023-08-08 14:25:01.968 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 14:25:01.969 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:25:01.975 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:25:11.851 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 14:25:12.360 +02:00  INF]  Executed DbCommand (38ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 14:25:31.963 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 14:25:32.178 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-08 14:25:32.178 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-08 14:25:32.178 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-08 14:25:32.178 +02:00  INF]  Hosting environment: Development
+[2023-08-08 14:25:32.178 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-08 14:25:32.510 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-08 14:25:32.594 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 84.6575ms
+[2023-08-08 14:25:32.652 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - -
+[2023-08-08 14:25:32.656 +02:00  INF]  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+[2023-08-08 14:25:32.657 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - - - 0 665 image/png 4.7159ms
+[2023-08-08 14:25:32.720 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-08 14:25:32.801 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.9328ms
+[2023-08-08 14:26:56.203 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 53
+[2023-08-08 14:26:56.296 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:26:56.311 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:26:56.443 +02:00  INF]  Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2023-08-08 14:26:56.448 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 133.4365ms
+[2023-08-08 14:26:56.449 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:26:56.451 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 53 - 400 - application/problem+json;+charset=utf-8 247.3987ms
+[2023-08-08 14:27:05.375 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 55
+[2023-08-08 14:27:05.379 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:27:05.380 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:27:09.711 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 14:27:10.214 +02:00  INF]  Executed DbCommand (38ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 14:27:18.466 +02:00  INF]  Executed DbCommand (30ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-08 14:27:44.669 +02:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-08-08 14:27:44.682 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 39302.3751ms
+[2023-08-08 14:27:44.683 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:27:44.691 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 55 - 200 - application/json;+charset=utf-8 39316.2201ms
+[2023-08-08 14:28:11.836 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 69
+[2023-08-08 14:28:11.874 +02:00  INF]  Failed to validate the token.
+System.ArgumentException: IDX12729: Unable to decode the header 'System.String' as Base64Url encoded string. jwtEncodedString: 'System.String'.
+ ---> Microsoft.IdentityModel.Json.JsonReaderException: Unexpected character encountered while parsing value: Ș. Path '', line 0, position 0.
+   at Microsoft.IdentityModel.Json.JsonTextReader.ParseValue()
+   at Microsoft.IdentityModel.Json.JsonTextReader.Read()
+   at Microsoft.IdentityModel.Json.JsonReader.ReadAndMoveToContent()
+   at Microsoft.IdentityModel.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Microsoft.IdentityModel.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Microsoft.IdentityModel.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Microsoft.IdentityModel.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Microsoft.IdentityModel.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Microsoft.IdentityModel.Json.JsonConvert.DeserializeObject(String value, Type type)
+   at System.IdentityModel.Tokens.Jwt.JsonExtensions.DeserializeJwtHeader(String jsonString)
+   at System.IdentityModel.Tokens.Jwt.JwtHeader.Base64UrlDeserialize(String base64UrlEncodedJsonString)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.Decode(String[] tokenParts, String rawData)
+   --- End of inner exception stack trace ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityToken.Decode(String[] tokenParts, String rawData)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ReadJwtToken(String token)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2023-08-08 14:28:11.895 +02:00  INF]  Bearer was not authenticated. Failure message: IDX12729: Unable to decode the header 'System.String' as Base64Url encoded string. jwtEncodedString: 'System.String'.
+[2023-08-08 14:28:11.900 +02:00  INF]  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (root)
+[2023-08-08 14:28:11.906 +02:00  INF]  AuthenticationScheme: Bearer was challenged.
+[2023-08-08 14:28:11.906 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tenants application/json 69 - 401 0 - 70.2856ms
+[2023-08-08 14:43:03.803 +02:00  INF]  User profile is available. Using '/Users/cephasjonsson/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+[2023-08-08 14:43:04.040 +02:00  INF]  Now listening on: https://localhost:7250
+[2023-08-08 14:43:04.040 +02:00  INF]  Now listening on: http://localhost:5250
+[2023-08-08 14:43:04.041 +02:00  INF]  Application started. Press Ctrl+C to shut down.
+[2023-08-08 14:43:04.041 +02:00  INF]  Hosting environment: Development
+[2023-08-08 14:43:04.041 +02:00  INF]  Content root path: /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi
+[2023-08-08 14:43:04.671 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/index.html - -
+[2023-08-08 14:43:04.759 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/index.html - - - 200 - text/html;charset=utf-8 89.0090ms
+[2023-08-08 14:43:04.821 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - -
+[2023-08-08 14:43:04.826 +02:00  INF]  Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+[2023-08-08 14:43:04.826 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/favicon-16x16.png - - - 0 665 image/png 5.3106ms
+[2023-08-08 14:43:04.893 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - -
+[2023-08-08 14:43:04.970 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.2127ms
+[2023-08-08 14:58:21.027 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61
+[2023-08-08 14:58:21.096 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:58:21.110 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 14:58:25.138 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 14:58:25.623 +02:00  INF]  Executed DbCommand (36ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 14:58:25.745 +02:00  INF]  Executed DbCommand (29ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-08 14:58:25.836 +02:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-08-08 14:58:25.850 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 4736.3531ms
+[2023-08-08 14:58:25.851 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 14:58:25.861 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61 - 200 - application/json;+charset=utf-8 4834.6347ms
+[2023-08-08 14:59:23.436 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Identity/profile/297af0a9-060d-4ac7-b014-e421588150a0 - -
+[2023-08-08 14:59:26.026 +02:00  ERR]  Exception occurred while processing message.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2023-08-08 14:59:26.029 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 14:59:26.033 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Identity/profile/297af0a9-060d-4ac7-b014-e421588150a0 - - - 500 - text/plain;+charset=utf-8 2597.4278ms
+[2023-08-08 15:00:09.671 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Identity/profile - -
+[2023-08-08 15:00:11.702 +02:00  ERR]  Exception occurred while processing message.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2023-08-08 15:00:11.704 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 15:00:11.706 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Identity/profile - - - 500 - text/plain;+charset=utf-8 2035.0630ms
+[2023-08-08 15:00:20.075 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Identity/register application/json 47
+[2023-08-08 15:00:22.110 +02:00  ERR]  Exception occurred while processing message.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2023-08-08 15:00:22.111 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 15:00:22.113 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Identity/register application/json 47 - 500 - text/plain;+charset=utf-8 2038.1621ms
+[2023-08-08 15:00:41.528 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Venues/GetAllVenues application/json 38
+[2023-08-08 15:00:43.202 +02:00  ERR]  Exception occurred while processing message.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2023-08-08 15:00:43.204 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 15:00:43.205 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Venues/GetAllVenues application/json 38 - 500 - text/plain;+charset=utf-8 1677.4965ms
+[2023-08-08 15:00:53.327 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Identity/profile - -
+[2023-08-08 15:00:55.652 +02:00  ERR]  Exception occurred while processing message.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2023-08-08 15:00:55.654 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 15:00:55.657 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Identity/profile - - - 500 - text/plain;+charset=utf-8 2329.1879ms
+[2023-08-08 15:02:05.531 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Identity/profile - -
+[2023-08-08 15:02:05.535 +02:00  INF]  Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token.
+[2023-08-08 15:02:05.536 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.IdentityController.GetProfileDetailsAsync (AspNano.WebApi)'
+[2023-08-08 15:02:05.539 +02:00  INF]  Route matched with {action = "GetProfileDetails", controller = "Identity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfileDetailsAsync() on controller AspNano.WebApi.Controllers.IdentityController (AspNano.WebApi).
+[2023-08-08 15:02:07.518 +02:00  INF]  Executed action AspNano.WebApi.Controllers.IdentityController.GetProfileDetailsAsync (AspNano.WebApi) in 1978.319ms
+[2023-08-08 15:02:07.518 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.IdentityController.GetProfileDetailsAsync (AspNano.WebApi)'
+[2023-08-08 15:02:07.519 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at InvokeStub_TenantService..ctor(Object, Object, IntPtr*)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method190(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 15:02:07.521 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Identity/profile - - - 500 - text/plain;+charset=utf-8 1990.6155ms
+[2023-08-08 15:02:51.540 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61
+[2023-08-08 15:02:51.541 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:02:51.541 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 15:02:53.362 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 15:02:53.374 +02:00  INF]  Executed DbCommand (9ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 15:02:53.375 +02:00  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2023-08-08 15:02:53.376 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 1834.5458ms
+[2023-08-08 15:02:53.376 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:02:53.376 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61 - 401 - application/problem+json;+charset=utf-8 1839.2735ms
+[2023-08-08 15:03:12.396 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61
+[2023-08-08 15:03:12.396 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:03:12.397 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 15:03:14.861 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 15:03:14.966 +02:00  INF]  Executed DbCommand (32ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 15:03:17.561 +02:00  INF]  Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+[2023-08-08 15:03:17.561 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 5164.1423ms
+[2023-08-08 15:03:17.561 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:03:17.561 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61 - 401 - application/problem+json;+charset=utf-8 5165.2998ms
+[2023-08-08 15:03:27.638 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61
+[2023-08-08 15:03:27.638 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:03:27.638 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 15:03:29.576 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 15:03:29.583 +02:00  INF]  Executed DbCommand (6ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 15:03:29.590 +02:00  INF]  Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-08 15:03:29.591 +02:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-08-08 15:03:29.591 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 1952.4809ms
+[2023-08-08 15:03:29.591 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:03:29.591 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61 - 200 - application/json;+charset=utf-8 1953.3252ms
+[2023-08-08 15:03:43.636 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Identity/profile - -
+[2023-08-08 15:03:45.849 +02:00  ERR]  Exception occurred while processing message.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2023-08-08 15:03:45.850 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 15:03:45.851 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Identity/profile - - - 500 - text/plain;+charset=utf-8 2215.2994ms
+[2023-08-08 15:04:17.735 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61
+[2023-08-08 15:04:17.765 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:04:17.766 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 15:04:19.485 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 15:04:19.690 +02:00  INF]  Executed DbCommand (126ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 15:04:19.715 +02:00  INF]  Executed DbCommand (22ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-08 15:04:19.715 +02:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-08-08 15:04:19.715 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 1949.8395ms
+[2023-08-08 15:04:19.716 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:04:19.716 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61 - 200 - application/json;+charset=utf-8 1982.3266ms
+[2023-08-08 15:04:33.349 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Identity/profile - -
+[2023-08-08 15:04:46.875 +02:00  ERR]  Exception occurred while processing message.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2023-08-08 15:04:46.876 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 15:04:46.878 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Identity/profile - - - 500 - text/plain;+charset=utf-8 13529.0885ms
+[2023-08-08 15:04:53.824 +02:00  INF]  Request starting HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61
+[2023-08-08 15:04:53.828 +02:00  INF]  Executing endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:04:53.828 +02:00  INF]  Route matched with {action = "Login", controller = "Tokens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(System.String, AspNano.DTOs.AuthDTOs.TokenRequest) on controller AspNano.WebApi.Controllers.TokensController (AspNano.WebApi).
+[2023-08-08 15:05:00.282 +02:00  INF]  Entity Framework Core 6.0.1 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.1' with options: None
+[2023-08-08 15:05:00.389 +02:00  INF]  Executed DbCommand (106ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TenantId], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+[2023-08-08 15:05:10.304 +02:00  INF]  Executed DbCommand (46ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+[2023-08-08 15:05:31.447 +02:00  INF]  Executing OkObjectResult, writing value of type '<>f__AnonymousType1`4[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2023-08-08 15:05:31.448 +02:00  INF]  Executed action AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi) in 37620.1288ms
+[2023-08-08 15:05:31.448 +02:00  INF]  Executed endpoint 'AspNano.WebApi.Controllers.TokensController.Login (AspNano.WebApi)'
+[2023-08-08 15:05:31.448 +02:00  INF]  Request finished HTTP/1.1 POST https://localhost:7250/api/Tokens application/json 61 - 200 - application/json;+charset=utf-8 37625.1330ms
+[2023-08-08 15:05:53.234 +02:00  INF]  Request starting HTTP/1.1 GET https://localhost:7250/api/Identity/profile - -
+[2023-08-08 15:06:38.108 +02:00  ERR]  Exception occurred while processing message.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+[2023-08-08 15:06:38.110 +02:00  ERR]  An unhandled exception has occurred while executing the request.
+System.Exception: Invalid Tenant!
+   at AspNano.Infrastructure.Multitenancy.TenantService..ctor(IHttpContextAccessor httpContextAccessor) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/Multitenancy/TenantService.cs:line 39
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at ResolveService(ILEmitResolverBuilderRuntimeContext, ServiceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AspNano.WebApi.Helper.RegisterServices.<>c.<ConfigureApplicationServices>b__0_5(TokenValidatedContext context) in /Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/Helper/RegisterServices.cs:line 75
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.TokenValidated(TokenValidatedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2023-08-08 15:06:38.111 +02:00  INF]  Request finished HTTP/1.1 GET https://localhost:7250/api/Identity/profile - - - 500 - text/plain;+charset=utf-8 44878.4583ms

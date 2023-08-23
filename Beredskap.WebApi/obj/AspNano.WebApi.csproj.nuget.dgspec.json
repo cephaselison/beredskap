@@ -1,0 +1,633 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/AspNano.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/AspNano.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/AspNano.Application.csproj",
+        "projectName": "AspNano.Application",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/AspNano.Application.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/AspNano.Common.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/AspNano.Common.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Core/AspNano.Domain.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Core/AspNano.Domain.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/AspNano.DTOs.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/AspNano.DTOs.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/AspNano.Infrastructure.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/AspNano.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/AspNano.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/AspNano.Common.csproj",
+        "projectName": "AspNano.Common",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/AspNano.Common.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Core/AspNano.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Core/AspNano.Domain.csproj",
+        "projectName": "AspNano.Domain",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Core/AspNano.Domain.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/AspNano.Enums.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/AspNano.Enums.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFrameworkCore.DataEncryption": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/AspNano.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/AspNano.DTOs.csproj",
+        "projectName": "AspNano.DTOs",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/AspNano.DTOs.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/AspNano.Enums.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/AspNano.Enums.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/AspNano.Enums.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/AspNano.Enums.csproj",
+        "projectName": "AspNano.Enums",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/AspNano.Enums.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/AspNano.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/AspNano.Infrastructure.csproj",
+        "projectName": "AspNano.Infrastructure",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/AspNano.Infrastructure.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/AspNano.Common.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/AspNano.Common.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Core/AspNano.Domain.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Core/AspNano.Domain.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/AspNano.DTOs.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.DTOs/AspNano.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/AspNano.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/AspNano.WebApi.csproj",
+        "projectName": "AspNano.WebApi",
+        "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/AspNano.WebApi.csproj",
+        "packagesPath": "/Users/cephasjonsson/.nuget/packages/",
+        "outputPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cephasjonsson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/AspNano.Application.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Application/AspNano.Application.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/AspNano.Common.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Common/AspNano.Common.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/AspNano.Enums.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Enums/AspNano.Enums.csproj"
+              },
+              "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/AspNano.Infrastructure.csproj": {
+                "projectPath": "/Users/cephasjonsson/Documents/dev/dotnet-projects/AspNano-master/AspNano/AspNano.Infrastructure/AspNano.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
